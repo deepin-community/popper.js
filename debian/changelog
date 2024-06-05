@@ -1,3 +1,20 @@
+popper.js (1.16.1+ds-6) unstable; urgency=medium
+
+  * Team upload
+  * Fix filenamemangle
+  * Fix debian/watch
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Yadd <yadd@debian.org>  Mon, 31 Oct 2022 11:24:30 +0100
+
+popper.js (1.16.1+ds-5) unstable; urgency=medium
+
+  * team upload
+
+  * use and build-depend on terser (not uglifyjs.terser)
+
+ -- Jonas Smedegaard <dr@jones.dk>  Thu, 02 Dec 2021 21:47:52 +0100
+
 popper.js (1.16.1+ds-4) unstable; urgency=medium
 
   * Fix GitHub tags regex

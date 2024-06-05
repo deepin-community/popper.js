@@ -14,5 +14,5 @@ override_dh_auto_build:
 	done
 	# Our uglifyjs is not able to compact this files for now
 	for f in packages/popper/dist/*.js packages/popper/dist/*/*.js; do \
-		uglifyjs.terser -o $${f%.js}.min.js $$f || cp $$f $${f%.js}.min.js; \
+		terser -o $${f%.js}.min.js $$f || cp $$f $${f%.js}.min.js; \
 	done
